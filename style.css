@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Gilroy';
+}
+.bub {
+    font-size: 48px;
+    margin-left: 76px;
+}
+.non {
+    margin-left: 76px;
+    font-size: 24px;
+    color: #0071E3;
+    font-weight: 700;
+}
+
+.image {
+    width: 312px;
+    height: 290px;
+    background-image: url(./img/mbp14-spacegray-select-202110\ 1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image_two {
+    width: 312px;
+    height: 290px;
+    background-image: url(./img/mbp14-silver-select-202110\ 1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn_b {
+    background: #0071E3;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+.mac {
+    margin-top: 63px;
+    display: flex;
+    margin-bottom: 60px;
+}
+.tex_two {
+    margin-top: 24px;
+    width: 1008px;
+    height: 88px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+.tex {
+    margin-top: 70px;
+    font-size: 48px;
+}
+.memory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.memory button {
+    width: 320px;
+    padding: 10px;
+    background: none;
+    border: 2px solid #CFE7FF;
+    border-radius: 10px;
+    margin-top: 7px;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+.studio {
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 60px;
+    margin-left: 76px;
+}
+span {
+    position: absolute;
+    right: 5px;
+}
+
+.active {
+    border: 2px solid #007FFF !important;
+}
+.absolut {
+    width: 150px;
+    height: 50px;
+    background-color: #CFE7FF;
+    border-radius: 10px;
+    color: #797979;
+}
